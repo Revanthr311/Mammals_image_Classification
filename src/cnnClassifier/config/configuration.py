@@ -71,7 +71,7 @@ class ConfigurationManager:
 
     def get_evaluation_config(self) -> EvaluationConfig:
         eval_config = EvaluationConfig(
-            path_of_model="Trained_Model/model.h5",
+            path_of_model="artifacts/training/model.h5",
             training_data="artifacts/data_ingestion/mammals",
             all_params=self.params,
             params_image_size=self.params.IMAGE_SIZE,
